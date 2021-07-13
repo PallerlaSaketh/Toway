@@ -1,0 +1,33 @@
+<p>toway-component works!</p>
+<div>
+    <h2>Two way data Binding</h2>
+    Name : {{name}}<br>
+    Age  : {{age}}
+    <br><br>
+
+    Name : <input type="text" [(ngModel)]="name" />  <br>
+    age : <input type="text"  [(ngModel)]="age" />  <br>
+
+    <input type="button" value="Submit" (click)="handleSub()"  />
+    <br><br>
+
+    Value1 : <input type="number" [(ngModel)]="value1" />  <br>
+    Value2 : <input type="number" [(ngModel)]="value2" />  <br>
+     <input type="button" value="-" (click)="sub()" />
+     <input type="button" value="/" (click)="division()" />
+     <input type="button" value="+" (click)="add()" />
+     <input type="button" value="*" (click)="multi()" />
+     <h3>Result :{{Result}}</h3>
+
+
+
+
+
+
+
+
+    </div>
+   
+
+
+  
